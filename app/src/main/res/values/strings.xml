@@ -1,5 +1,16 @@
 <resources>
-    <string name="app_name">Homework_2</string>
+    <string name="app_name">Shirokov Dmitriy</string>
     <string name="photo">photo</string>
-    <string name="adc_logo">adc_logo</string>
+    <string name="adc_ico">adc_ico</string>
+    <string name="android_ico">android_ico</string>
+    <string name="music_ico">music_ico</string>
+    <string name="case_1">QA in Autodoc</string>
+    <string name="case_2">Android Beginner</string>
+    <string name="about_me">Since 2014 worked on the development and administration of Web sites. Today I\'m testing applications in Autodoc. To expand my horizons began to study the development process for Android in Avito Android Academy. Besides this I play drums, I released several albums with different bands.</string>
+    <string name="case_3">Musician</string>
+    <string name="message">Enter a message...</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="tg_ico">tg_ico</string>
+    <string name="vk_ico">vk_ico</string>
+    <string name="ym_ico">ym_ico</string>
 </resources>

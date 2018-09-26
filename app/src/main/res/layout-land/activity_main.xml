@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/photo"
+    android:scaleType="centerCrop"
+    app:srcCompat="@drawable/me" />
+
+<ScrollView
     android:id="@+id/scroll"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -13,21 +26,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/base_margin_8"
-                android:contentDescription="@string/photo"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/me" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingStart="@dimen/padding_left"
-            android:paddingEnd="@dimen/base_margin_8">
+            android:paddingEnd="@dimen/base_margin_8"
+            android:paddingTop="@dimen/base_margin_8">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -178,3 +183,4 @@
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
+</LinearLayout>
